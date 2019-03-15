@@ -12,13 +12,13 @@ function setup(){
     imageMode(CENTER);
     getCurrentPosition(doThisOnLocation)
 
-    pixelDensity(0.5);
+    pixelDensity(0.8);
 
     submitButton = select("#submitButton");
     submitButton.mousePressed(handleSubmit);
 
 
-    
+
 }
 
 function handleSubmit(e){
@@ -26,10 +26,10 @@ function handleSubmit(e){
         location: {},
         image: ''
     }
-    
+
     output.location.lat = locationData.latitude
     output.location.lon = locationData.longitude
-    
+
     const last_img = get()
     output.image = last_img.canvas.toDataURL()
 

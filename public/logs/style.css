@@ -10,11 +10,9 @@ body{
     font-weight: 400 !important;
   }
 h1{
-    font-weight: 400 !important;
-}
-
-h2 {
-  font-weight: 400 !important;
+    font-size:2em;
+    margin:.67em;
+    color: white;
 }
 hr{
     box-sizing:content-box;
@@ -1350,10 +1348,6 @@ img{
 .cyan {
   color: rgb(204, 142, 255)
 }
-.bg-cyan {
-  background-color: rgb(204, 142, 255)
-}
-
 .magenta {
   color: rgb(255, 0, 255)
 }
@@ -1488,6 +1482,10 @@ img{
 }
 .bg-yellow{
     background-color:gold
+}
+
+.bg-cyan {
+  background-color: rgb(204, 142, 255)
 }
 .bg-light-yellow{
     background-color:#fbf1a9
@@ -2436,6 +2434,9 @@ img{
 }
 .f7{
     font-size:.75rem
+}
+.f8{
+    font-size:.55rem
 }
 .measure{
     max-width:30em
